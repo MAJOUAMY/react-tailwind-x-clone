@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        VarelaRound: ["Varela Round", "system-ui"],
+        Segoe: ["Segoe UI", "sans-serif"],
+      },
+    },
+    colors: {
+      lightGray: "#E7E7E8",
+    },
   },
   plugins: [],
 };

@@ -5,11 +5,11 @@ import { Outlet } from "react-router-dom";
 
 function RootLayout() {
   return (
-    <div>
+    <div className="flex align-top justify-between">
       <Navbar />
-      {/* <div>
+      <div className="w-6/12">
         <Outlet />
-      </div> */}
+      </div>
       <SideBar />
     </div>
   );
