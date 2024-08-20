@@ -17,3 +17,7 @@ textarea:focus {
   outline: none;
 
 }
+
+.nav .active .span{
+  font-weight: 700;
+}
