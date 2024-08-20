@@ -12,6 +12,7 @@ export default {
     colors: {
       lightGray: "#E7E7E8",
       primary: "#1D9BF0",
+      Hoverprimary: "#bae0fd",
     },
   },
   plugins: [],

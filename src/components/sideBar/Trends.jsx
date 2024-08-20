@@ -16,7 +16,7 @@ function Trends() {
       id: 1,
       type: "category",
       category: "web dev",
-      direction: "rtl",
+      direction: "ltr",
       content: "mdevc",
       postCount: 1082,
     },
